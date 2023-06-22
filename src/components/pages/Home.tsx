@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 // import { getProducts } from '../../api/api';
 // import { useQuery } from '@tanstack/react-query';
 import { useProductsStore } from '../../store/productsStore';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect } from 'react';
 import { shallow } from 'zustand/shallow';
 import Banner from '../organisms/Banner';
 
@@ -17,7 +17,7 @@ function convertirAMoneda(valor:number) {
 }
 
 const Home = () => {
-  const price = useRef()
+  // const price = useRef()
   const {getProducts} = useProductsStore()
   const {products} = useProductsStore((state)=>({
     products: state.products
@@ -26,7 +26,7 @@ const Home = () => {
   useEffect(()=>{
     getProducts()
   },[])
-  const prod = products.find((item:any)=> "2" === item.id)
+  // const prod = products.find((item:any)=> "2" === item.id)
   return (
     <section className='Home '>
       <Banner img="/bag.jpg" title="Eye Candy" subTitle='La bolsa que nadie va a dejar de ver'/>

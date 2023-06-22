@@ -1,17 +1,17 @@
-import { useEffect, useState, } from 'react'
+import { useEffect } from 'react'
 import './App.css'
 import { getProducts } from './api/api';
 import { useQuery } from '@tanstack/react-query';
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [products, setProducts] = useState()
-  const {isLoading, data, isError, error} = useQuery({
+  // const [count, setCount] = useState(0)
+  // const [products, setProducts] = useState()
+  const {isLoading, data} = useQuery({
     queryKey: ['products'],
     queryFn : getProducts
   })
   useEffect (()=>{
-    setProducts(data)
+    // setProducts(data)
   },[]);
   if (isLoading) return <div className="loading">Loading...</div>
 

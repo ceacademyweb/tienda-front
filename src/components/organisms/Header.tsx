@@ -8,9 +8,9 @@ const Header = ()=>{
   const ToggleMenuFunction = () => {
     !active ? setActive(true) : setActive(false);
   };
-  const menuHidden = () => {
-    setActive(false)
-  }
+  // const menuHidden = () => {
+  //   setActive(false)
+  // }
   return(
     <header className="Header px-16 h-16 flex justify-items-start items-center gap-x-16">
 

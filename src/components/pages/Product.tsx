@@ -1,5 +1,5 @@
 import { useProductsStore } from '../../store/productsStore';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { shallow } from 'zustand/shallow';
 import { useParams } from "react-router-dom"
 import parse from 'html-react-parser';
@@ -27,9 +27,12 @@ const Product = () => {
   const zoomImage = (e:any) => {
     console.log('entra')
     const src = e.target.src
+    console.log(src)
   }
   const zoomNormal = (e:any) => {
     console.log('sale')
+    const src = e.target.src
+    console.log(src)
   }
 
   return (
