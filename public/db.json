@@ -1,0 +1,117 @@
+[
+    {
+      "id": "1",
+      "name": "BANDAGE DRESS",
+      "brand": "HERVÉ LEGER",
+      "description": "<p><span>Talla: </span> XS </p><p><span>Busto: </span> 62cm </p><p><span>Largo: </span> 70cm </p><p><span>Condicion: </span> 9/10 </p>",
+      "category": "Dama",
+      "price": 4800,
+      "inStock": true,
+
+      "image" : "vestido1-1.webp",
+      "gallery": [
+        {
+          "img": "vestido1-1.webp"
+        },
+        {
+          "img": "vestido1-2.webp"
+        },
+        {
+          "img": "vestido1-3.webp"
+        },
+        {
+          "img": "vestido1-4.webp"
+        }
+      ]
+
+    },
+    {
+      "id": "2",
+      "name": "BACKPACK",
+      "brand": "HERVÉ LEGER",
+      "description": "<p><span>Talla: </span> XS </p><p><span>Busto: </span> 62cm </p><p><span>Largo: </span> 70cm </p><p><span>Condicion: </span> 9/10 </p>",
+      "category": "Dama",
+      "price": 4800,
+      "inStock": true,
+
+      "image" : "mochila1.webp",
+      "gallery": [
+        {
+          "img": "mochila1.webp"
+        },
+        {
+          "img": "mochila1-2.webp"
+        },
+        {
+          "img": "mochila1-3.webp"
+        },
+        {
+          "img": "mochila1-4.webp"
+        }
+      ]
+
+    },
+    {
+      "id": "3",
+      "name": "HOODIE",
+      "brand": "OFF WHITE",
+      "description": "<p><span>Talla: </span> S </p><p><span>Pecho: </span> 116cm </p><p><span>Largo: </span> 62cm </p><p><span>Condicion: </span> 8.9/10 </p>",
+      "category": "Dama",
+      "price": 8900,
+      "inStock": true,
+
+      "image" : "hoodie1-1.webp",
+      "gallery": [
+        {
+          "img": "hoodie1-1.webp"
+        },
+        {
+          "img": "hoodie1-2.webp"
+        }
+      ]
+
+    },
+    {
+      "id": "4",
+      "name": "BAMBOO TOTE",
+      "brand": "GUCCI",
+      "description": "<p><span>Material: </span> Canvas </p><p><span>Color: </span> Negro </p><p><span>Condicion: </span> 9.5/10 </p>",
+      "category": "Dama",
+      "price": 11500,
+      "inStock": true,
+
+      "image" : "bolsa1-1.webp",
+      "gallery": [
+        {
+          "img": "bolsa1-1.webp"
+        },
+        {
+          "img": "bolsa1-2.webp"
+        }
+      ]
+
+    },
+    {
+      "id": "5",
+      "name": "POLO",
+      "brand": "MOSCHINO",
+      "description": "<p><span>Talla: </span> XS </p><p><span>Pecho: </span> 94cm </p><p><span>Largo: </span> 69cm </p><p><span>Condicion: </span> 9/10 </p>",
+      "category": "Dama",
+      "price": 2200,
+      "inStock": true,
+
+      "image" : "polo1-1.webp",
+      "gallery": [
+        {
+          "img": "polo1-1.webp"
+        },
+        {
+          "img": "polo1-2.webp"
+        },
+        {
+          "img": "polo1-3.webp"
+        }
+      ]
+
+    }
+  ]

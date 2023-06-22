@@ -1,0 +1,50 @@
+.Footer{
+  background-color: var(--font-color);
+  color: rgba(#fff,.75);
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: .8em;
+  p{
+    margin-bottom: 0;
+  }
+  &__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2em;
+    @include from(l){
+      justify-content: space-between;
+      // margin-bottom: 7.5vh;
+    }
+  }
+  @include from(l){
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7.5vh 10%;
+    font-size: 1.2em;
+    a{
+      transition: color .3s ease;
+      &:hover{
+        color: var(--color-main);
+      }
+    }
+  }
+  p{
+    text-align: center;
+    font-size: .8em;
+  }
+}
+.social-networks{
+  --size: 1.3em;
+  display: flex;
+  column-gap: 1em;
+  align-items: center;
+  li,a{
+    width: var(--size);
+    height: var(--size);
+  }
+  svg{
+    fill: rgba(#fff,.75)
+  }
+}

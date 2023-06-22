@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "Laptop",
+      "price": 1000,
+      "inStock": true,
+      "image" : "https://picsum.photos/seed/picsum/800/600"
+    },
+    {
+      "id": 2,
+      "name": "Comprtadora",
+      "description": "Comprtadora",
+      "price": 1000,
+      "inStock": true,
+      "image" : "https://picsum.photos/seed/picsum/800/600"
+    },
+    {
+      "id": 3,
+      "name": "Celular",
+      "description": "Celular",
+      "price": 1000,
+      "inStock": true,
+      "image" : "https://picsum.photos/seed/picsum/800/600"
+    },
+    {
+      "id": 4,
+      "name": "Tablet",
+      "description": "Tablet",
+      "price": 1000,
+      "inStock": true,
+      "image" : "https://picsum.photos/seed/picsum/800/600"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Florentino Navarro"
+
+    },
+    {
+      "id": 2,
+      "name": "Guadalupe Hernandez"
+    },
+    {
+      "id": 3,
+      "name": "Leonordo Jimenez"
+    }
+  ]
+}
